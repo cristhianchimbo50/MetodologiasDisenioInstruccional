@@ -60,3 +60,6 @@ function openIntro() {
     var top = (window.innerHeight / 2) - (height / 2);
     window.open(url, 'popup', 'width=' + width + ',height=' + height + ',top=' + top + ',left=' + left + ',scrollbars=yes');
 }
+function init() {
+    openIntro();
+}

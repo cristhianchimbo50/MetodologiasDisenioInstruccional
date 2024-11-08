@@ -60,6 +60,17 @@ function openIntro() {
     var top = (window.innerHeight / 2) - (height / 2);
     window.open(url, 'popup', 'width=' + width + ',height=' + height + ',top=' + top + ',left=' + left + ',scrollbars=yes');
 }
+
+// function openIntro() {
+//     var url = 'https://view.genially.com/669da57dfb40d335d67a91f8';
+//     var width =1500;
+//     var height = 1500;
+//     var left = (window.innerWidth / 2) - (width / 2);
+//     var top = (window.innerHeight / 2) - (height / 2);
+//     window.open(url, 'popup', 'width=' + width + ',height=' + height + ',top=' + top + ',left=' + left + ',scrollbars=yes');
+// }
+
+
 function init() {
     openIntro();
 }
